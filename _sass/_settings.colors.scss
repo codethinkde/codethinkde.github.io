@@ -1,0 +1,53 @@
+///* ========================================================================
+//   #COLORS
+//   ======================================================================== */
+
+// Brand Colors
+
+$color-brand-primary:             #ef882b;
+$color-brand-primary-highlight:   lighten($color-brand-primary, 10%);
+$color-brand-primary-shadow:      darken($color-brand-primary, 10%);
+
+$color-brand-secondary: #ed134a;
+$color-brand-secondary-highlight: lighten($color-brand-secondary, 10%);
+$color-brand-secondary-shadow:    darken($color-brand-secondary, 10%);
+
+$color-brand-dark: #4d4d4d;
+
+
+$color-black:       #000;
+$color-dark-gray:   #4d4d4d;
+$color-gray:        #ccc;
+$color-light-gray:  lighten($color-gray, 10%);
+$color-white:       #FFF;
+
+// Semantic color variables are daisy-chained onto their literal names.
+
+$color-link:                    $color-brand-primary;
+$color-link-hover:              $color-brand-primary-shadow;
+
+$color-nav-link:                $color-white;
+
+// $color-btn:                     #fff;
+// $color-btn-bg:                  $color-brand-primary;
+// $color-btn-hover-bg:            $color-brand-primary-shadow;
+
+// $color-btn-secondary:           #fff;
+// $color-btn-secondary-bg:        $color-brand-secondary;
+// $color-btn-secondary-hover-bg:  $color-brand-secondary-shadow;
+
+/**
+ * Gradients
+ */
+$gradient-orange-dark: #ea541a;
+$gradient-orange-bright: #f49142;
+
+$gradient-orange:       linear-gradient(135deg, $gradient-orange-bright 0%, $gradient-orange-dark 100%);
+$gradient-orange-hover: linear-gradient(135deg, darken($gradient-orange-bright, 1%) 0%, darken($gradient-orange-dark, 5%) 100%);
+
+
+
+
+
+
+

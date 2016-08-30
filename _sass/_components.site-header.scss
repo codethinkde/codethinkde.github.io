@@ -1,0 +1,37 @@
+/* ==========================================================================
+   #SITE-HEADER
+   ========================================================================== */
+
+.site-header {
+	background-image: url('../img/cover.jpg');
+	background-position: 50% 30%;
+	background-size: cover;
+
+	>.o-wrapper {
+		// padding-top: 30%;
+	}
+}
+
+	.site-header__welcome {
+		color: $color-white;
+		padding: $inuit-global-spacing-unit-large 0;
+
+		@include media-query(lap-and-up) {
+			padding: $inuit-global-spacing-unit-huge 0;
+		}
+	}
+
+		.site-header__h1 {
+			font-size: 2em;
+			font-weight: 400;
+
+			@include media-query(lap-and-up) {
+				font-size: 3em;
+			}
+		}
+
+		.site-header__description {
+			@include media-query(lap-and-up) {
+				font-size: 1.5em;
+			}
+		}

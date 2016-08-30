@@ -1,0 +1,204 @@
+---
+# Main SASS File
+---
+
+/* ==========================================================================
+   INUITCSS
+   ========================================================================== */
+
+/*!*
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ */
+
+/**
+ * This is an example inuitcss manifest file. DO NOT MODIFY THIS FILE DIRECTLY.
+ * Instead, copy and paste it into your own CSS directory and make additions,
+ * extension, and modifications there.
+ */
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Config...............Project-level configuration and feature switches.
+ * Global...............Globally-available project settings.
+ *
+ * TOOLS
+ * Functions............A small collection of useful functions.
+ * Mixins...............Globally-available mixins.
+ * Widths...............A mixin to quickly generate an arbitrary number of width
+ *                      classes for use alongside our grid system.
+ *
+ * GENERIC
+ * Box-sizing...........Better default `box-sizing`.
+ * Normalize.css........A level playing field using @necolas’ Normalize.css.
+ * Reset................A tiny reset to complement Normalize.css.
+ * Shared...............Sensibly and tersely share some global commonalities
+ *                      (particularly useful when managing vertical rhythm).
+ *
+ * ELEMENTS
+ * Page.................Set up our document’s default `font-size` and
+ *                      `line-height`.
+ * Headings.............Very minimal (i.e. only font-size information) for
+ *                      headings 1 through 6.
+ * Images...............Base image styles.
+ * Tables...............Simple table styles.
+ *
+ * OBJECTS
+ * Wrapper..............Page constraint object.
+ * Layout...............Generic layout module.
+ * Media................Image- and text-like content side by side. The
+ *                      poster-child of OOCSS.
+ * Flag.................Table-layout-based advancement on the Media object.
+ * List-bare............Lists with no bullets or indents.
+ * List-inline..........A list whose items all site in a line.
+ * Box..................Simple boxing abstraction.
+ * Block................Image-on-top-of-text object.
+ * Ratio................A container for maintaining aspect ratio of content.
+ * Crop.................Provide a cropping context for media (images, etc.).
+ *
+ * COMPONENTS
+ * Buttons..............An example button component, and how it fits into the
+ *                      inuitcss framework.
+ *
+ * UTILITIES
+ * Clearfix.............Bind our clearfix onto a utility class.
+ * Widths...............Simple width helper classes.
+ * Headings.............Reassigning our heading styles to helper classes.
+ * Spacing..............Nudge bits of the DOM around with these spacing
+ *                      classes.
+ * Print................Reset-like styles taken from the HTML5 Boilerplate.
+ *                      classes..
+ * Hide.................Helper classes to hide content
+ */
+
+// SETTINGS
+// @import "node_modules/inuitcss/settings/example.settings.config";
+@import "node_modules/inuitcss/settings/settings.global";
+@import "_sass/settings.breakpoints";
+@import "_sass/settings.colors";
+
+@mixin shadow($op: 0.2, $inset: false, $more: '') {
+	@if($inset) {
+		@if($more != '') {
+			box-shadow: 0px 0px 16px rgba($color-black, $op) inset, $more;
+		} @else {
+			box-shadow: 0px 0px 16px rgba($color-black, $op) inset;
+		}
+	} @else {
+		@if($more != '') {
+			box-shadow: 3px 3px 16px rgba($color-black, $op), $more;
+		} @else {
+			box-shadow: 3px 3px 16px rgba($color-black, $op);
+		}
+	}
+}
+
+
+
+
+// TOOLS
+@import "node_modules/inuitcss/tools/tools.functions";
+@import "node_modules/inuitcss/tools/tools.mixins";
+@import "node_modules/inuitcss/tools/tools.widths";
+@import "_sass/tools.media-queries";
+
+
+
+
+// GENERIC
+@import "node_modules/inuitcss/generic/generic.box-sizing";
+@import "node_modules/inuitcss/generic/generic.normalize";
+@import "node_modules/inuitcss/generic/generic.reset";
+@import "node_modules/inuitcss/generic/generic.shared";
+
+html {
+	font-family: "Roboto", "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+
+// ELEMENTS
+@import "node_modules/inuitcss/elements/elements.page";
+	$inuit-font-size-h1:  $inuit-global-font-size * 3;
+	$inuit-font-size-h2:  $inuit-global-font-size * 2;
+	// $inuit-font-size-h3:  24px !default;
+	// $inuit-font-size-h4:  20px !default;
+	// $inuit-font-size-h5:  18px !default;
+	// $inuit-font-size-h6:  16px !default;
+@import "node_modules/inuitcss/elements/elements.headings";
+@import "node_modules/inuitcss/elements/elements.images";
+@import "node_modules/inuitcss/elements/elements.tables";
+@import "_sass/elements.links";
+
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba($color-black, 0.1);
+}
+
+
+
+
+// OBJECTS
+//
+// Uncomment and add to this section as necessary.
+	$inuit-wrapper-width: 1000px;
+@import "node_modules/inuitcss/objects/objects.wrapper";
+@import "node_modules/inuitcss/objects/objects.layout";
+// @import "node_modules/inuitcss/objects/objects.media";
+// @import "node_modules/inuitcss/objects/objects.flag";
+// @import "node_modules/inuitcss/objects/objects.list-bare";
+	$inuit-list-inline-delimiter: "\00A0\2022\00A0";
+@import "node_modules/inuitcss/objects/objects.list-inline";
+// @import "node_modules/inuitcss/objects/objects.box";
+// @import "node_modules/inuitcss/objects/objects.block";
+// @import "node_modules/inuitcss/objects/objects.ratio";
+// @import "node_modules/inuitcss/objects/objects.crop";
+@import "_sass/objects.section";
+
+
+
+
+
+// COMPONENTS
+//
+// Build and include your project’s UI Compoments here.
+// @import "node_modules/inuitcss/components/example.components.buttons";
+@import "_sass/components.site-header";
+@import "_sass/components.site-nav";
+// @import "_sass/components.site-content.scss";
+@import "_sass/components.site-footer";
+@import "_sass/components.panels";
+@import "_sass/components.buttons";
+
+.ic-svg {
+	&--translucent > * {
+		fill: $color-white;
+		stroke: $color-white;
+		opacity: .9;
+	}
+}
+
+
+
+
+
+// UTILITIES
+// @import "node_modules/inuitcss/utilities/utilities.clearfix";
+@import "_sass/utilities.widths";
+// @import "node_modules/inuitcss/utilities/utilities.headings";
+@import "node_modules/inuitcss/utilities/utilities.spacing";
+@import "node_modules/inuitcss/utilities/utilities.print";
+// @import "node_modules/inuitcss/utilities/utilities.hide";
+@import "_sass/utilities.shadows";
+
+.u-svg-shadow {
+	filter: drop-shadow(2px 2px 3px rgba($color-black, .1));
+}
+
+.u-center {
+	text-align: center;
+}

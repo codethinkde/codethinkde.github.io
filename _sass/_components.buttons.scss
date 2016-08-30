@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #BUTTONS
+   ========================================================================== */
+
+.c-btn {
+    background: $gradient-orange;
+    border-radius: $inuit-global-radius;
+    color: $color-white;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: $inuit-global-spacing-unit-small $inuit-global-spacing-unit;
+    text-shadow: 1px 1px 2px rgba($color-black, .3);
+    transition: box-shadow .2s;
+
+    @include inuit-hocus() {
+        box-shadow: 0 0 80px rgba($color-black, .07) inset;
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+
+.c-btn--shaddow {
+    @include shadow();
+    @include inuit-hocus() {
+        @include shadow(.2, false, 0 0 80px rgba($color-black, .07) inset);
+    }
+}

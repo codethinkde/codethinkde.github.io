@@ -1,0 +1,31 @@
+/* ==========================================================================
+   #PANELS
+   ========================================================================== */
+
+.c-panel {
+	@include shadow();
+	border-radius: $inuit-global-radius;
+	padding: $inuit-global-spacing-unit;
+
+	&--orange {
+		background: $gradient-orange;
+		color: $color-white;
+	}
+}
+
+	.c-panel__img {
+		text-align: center;
+	}
+
+	.c-panel__heading {
+		font-weight: 300;
+		margin-bottom: $inuit-global-spacing-unit-small;
+	}
+
+	.c-panel__content {
+		opacity: .7;
+	}
+
+	.c-panel__footer {
+
+	}

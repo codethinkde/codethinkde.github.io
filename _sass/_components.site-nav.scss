@@ -1,0 +1,33 @@
+/* ==========================================================================
+   #SITE-NAV
+   ========================================================================== */
+
+.site-nav {
+    background: linear-gradient(to right, rgba($color-white, .9) 30%, rgba($color-white, 0) 60%);
+}
+
+    .site-nav__logo {
+        display: block;
+        float: left;
+    }
+
+    .site-nav__list {
+        float: right;
+        list-style: none;
+        margin: 0;
+    }
+
+        .site-nav__item {
+            float: left;
+        }
+
+            .site-nav__link {
+                color: $color-nav-link;
+                display: block;
+                line-height: 52px;
+                padding: 0 $inuit-global-spacing-unit-small;
+
+                @include inuit-hocus() {
+                    color: $color-nav-link;
+                }
+            }
