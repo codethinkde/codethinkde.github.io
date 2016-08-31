@@ -83,15 +83,15 @@
 @mixin shadow($op: 0.2, $inset: false, $more: '') {
 	@if($inset) {
 		@if($more != '') {
-			box-shadow: 0px 0px 16px rgba($color-black, $op) inset, $more;
+			box-shadow: 0px 6px 18px rgba($color-black, $op) inset, $more;
 		} @else {
-			box-shadow: 0px 0px 16px rgba($color-black, $op) inset;
+			box-shadow: 0px 6px 18px rgba($color-black, $op) inset;
 		}
 	} @else {
 		@if($more != '') {
-			box-shadow: 3px 3px 16px rgba($color-black, $op), $more;
+			box-shadow: 0px 6px 18px rgba($color-black, $op), $more;
 		} @else {
-			box-shadow: 3px 3px 16px rgba($color-black, $op);
+			box-shadow: 0px 6px 18px rgba($color-black, $op);
 		}
 	}
 }
@@ -173,6 +173,7 @@ hr {
 @import "_sass/components.site-footer";
 @import "_sass/components.panels";
 @import "_sass/components.buttons";
+@import "_sass/components.icon-fonts";
 
 .ic-svg {
 	&--translucent > * {
@@ -181,6 +182,29 @@ hr {
 		opacity: .9;
 	}
 }
+
+.c-skills__btn {
+	border: 0;
+	background: none;
+	color: $color-brand-dark;
+	cursor: pointer;
+	transition: color .2s;
+	margin-bottom: $inuit-global-spacing-unit-small;
+
+	@include inuit-hocus() {
+		color: $color-brand-primary;
+	}
+
+	&.active {
+		color: $color-brand-primary;
+	}
+}
+
+	.c-skills__icon {
+		font-size: 2em;
+		vertical-align: -20%;
+		margin-right: $inuit-global-spacing-unit-small;
+	}
 
 
 

@@ -1,0 +1,70 @@
+/* ==========================================================================
+   #ICON-FONTs
+   ========================================================================== */
+
+@font-face {
+  font-family: 'codethink-skills';
+  src:  url('fonts/codethink-skills.eot?5yv6db');
+  src:  url('fonts/codethink-skills.eot?5yv6db#iefix') format('embedded-opentype'),
+    url('fonts/codethink-skills.ttf?5yv6db') format('truetype'),
+    url('fonts/codethink-skills.woff?5yv6db') format('woff'),
+    url('fonts/codethink-skills.svg?5yv6db#codethink-skills') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'codethink-skills' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-continous-integration:before {
+  content: "\e901";
+}
+.ic-fb-og:before {
+  content: "\e902";
+}
+.ic-grafikdesign:before {
+  content: "\e903";
+}
+.ic-page-speed:before {
+  content: "\e904";
+}
+.ic-responsive-design:before {
+  content: "\e905";
+}
+.ic-seo:before {
+  content: "\e906";
+}
+.ic-ssg:before {
+  content: "\e907";
+}
+.ic-ssl:before {
+  content: "\e908";
+}
+.ic-style-guide:before {
+  content: "\e909";
+}
+.ic-user-testing:before {
+  content: "\e90a";
+}
+.ic-version-control:before {
+  content: "\e90b";
+}
+.ic-wp:before {
+  content: "\e90c";
+}
+.ic-analytics:before {
+  content: "\e900";
+}
+
