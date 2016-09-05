@@ -151,7 +151,6 @@ hr {
 // Uncomment and add to this section as necessary.
     $inuit-wrapper-width: 1000px;
 @import "node_modules/inuitcss/objects/objects.wrapper";
-@import "node_modules/inuitcss/objects/objects.layout";
 // @import "node_modules/inuitcss/objects/objects.media";
 // @import "node_modules/inuitcss/objects/objects.flag";
 // @import "node_modules/inuitcss/objects/objects.list-bare";
@@ -161,20 +160,8 @@ hr {
 // @import "node_modules/inuitcss/objects/objects.block";
 // @import "node_modules/inuitcss/objects/objects.ratio";
 // @import "node_modules/inuitcss/objects/objects.crop";
+@import "_sass/objects.layout";
 @import "_sass/objects.section";
-
-/**
- * Using Flexbox as the most stress-free method to equalize the height of all
- * the layout items
- */
-.o-layout--equalize {
-    display: flex;
-    overflow: hidden;
-
-    > .o-layout__item {
-        flex: 1;
-    }
-}
 
 
 

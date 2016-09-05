@@ -10,12 +10,23 @@
     padding: $inuit-global-spacing-unit;
     position: relative;
 
+    /* Variations */
     &--centering {
         text-align: center;
     }
 
+    &--arrow-down::after {
+        border-color: $color-white transparent;
+        border-style: solid;
+        border-width: 10px 10px 0;
+        bottom: -10px;
+        content: '';
+        left: 12%;
+        position: absolute;
+    }
 
 
+    /* Themes */
     &--orange {
         background: $gradient-orange;
         color: $color-white;
@@ -29,16 +40,6 @@
         &:not(:last-child) {
             border-right: 0;
         }
-    }
-
-    &--arrow-down::after {
-        border-color: $color-white transparent;
-        border-style: solid;
-        border-width: 10px 10px 0;
-        bottom: -10px;
-        content: '';
-        left: 12%;
-        position: absolute;
     }
 }
 
