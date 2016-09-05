@@ -23,5 +23,4 @@ sass:
 markdown: kramdown
 
 # Plugins
-gems:
-  - octopress-autoprefixer
+# gems: [octopress-autoprefixer]
