@@ -143,12 +143,18 @@ hr {
     border-top: 1px solid rgba($color-black, 0.1);
 }
 
+.e-page-content {
+    h2 {
+        border-bottom: 1px solid $color-brand-primary;
+        font-weight: 400;
+    }
+}
+
 
 
 
 // OBJECTS
 //
-// Uncomment and add to this section as necessary.
     $inuit-wrapper-width: 1000px;
 @import "node_modules/inuitcss/objects/objects.wrapper";
 // @import "node_modules/inuitcss/objects/objects.media";
@@ -168,8 +174,6 @@ hr {
 
 // COMPONENTS
 //
-// Build and include your project’s UI Compoments here.
-// @import "node_modules/inuitcss/components/example.components.buttons";
 @import "_sass/components.site-header";
 @import "_sass/components.site-nav";
 // @import "_sass/components.site-content.scss";
