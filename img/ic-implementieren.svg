@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="-70 -70 300 300" enable-background="new 0 0 160 160" xml:space="preserve">
+<g>
+	<circle fill="none" stroke="#4E4E4E" stroke-width="3" stroke-miterlimit="10" cx="78.923" cy="80.331" r="67.065"/>
+	<path fill="none" stroke="#F48A36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M92.424,70.183c-0.205,0.434-0.535,0.649-0.99,0.649h-7.658V87.89c0,0.318-0.104,0.581-0.307,0.788
+		c-0.207,0.204-0.469,0.307-0.787,0.307h-6.564c-0.318,0-0.58-0.103-0.785-0.307c-0.205-0.207-0.309-0.47-0.309-0.788V70.832h-7.656
+		c-0.479,0-0.812-0.216-0.994-0.649c-0.182-0.433-0.123-0.832,0.172-1.196L78.51,55.858c0.229-0.228,0.49-0.343,0.787-0.343
+		c0.318,0,0.592,0.115,0.822,0.343l12.135,13.128C92.549,69.351,92.607,69.75,92.424,70.183z"/>
+	<g>
+		<path fill="none" stroke="#4E4E4E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M121.5,98V49.75c0-3.313-2.787-6.25-6.1-6.25h-72c-3.314,0-5.9,2.937-5.9,6.25V98"/>
+		<path fill="none" stroke="#4E4E4E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M94.4,99.5c0,1-0.896,2-2,2h-25c-1.105,0-2-1-2-2h-42l0,0c0,0,2.686,6,6,6h100c3.312,0,6-2,6-6l0,0H94.4z"/>
+		<path fill="none" stroke="#4E4E4E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M37.4,99.25"/>
+		<path fill="none" stroke="#4E4E4E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M37.4,95.25"/>
+
+			<rect x="42.5" y="48.5" fill="none" stroke="#4E4E4E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="74" height="46"/>
+	</g>
+</g>
+</svg>

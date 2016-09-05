@@ -10,9 +10,25 @@
     padding: $inuit-global-spacing-unit;
     position: relative;
 
+    &--centering {
+        text-align: center;
+    }
+
+
+
     &--orange {
         background: $gradient-orange;
         color: $color-white;
+    }
+
+    &--flat {
+        border: 1px solid $color-light-gray;
+        border-radius: 0;
+        box-shadow: none;
+
+        &:not(:last-child) {
+            border-right: 0;
+        }
     }
 
     &--arrow-down::after {
@@ -28,16 +44,24 @@
 
     .c-panel__img {
         text-align: center;
+        margin-bottom: $inuit-global-spacing-unit-small;
     }
 
     .c-panel__heading {
-        font-weight: 300;
         margin-bottom: $inuit-global-spacing-unit-small;
     }
 
     .c-panel__content {
         font-size: .875em;
         opacity: .7;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &--justified {
+            text-align: justify;
+        }
     }
 
     .c-panel__arrow-down {

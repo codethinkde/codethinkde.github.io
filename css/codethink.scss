@@ -81,19 +81,19 @@
 @import "_sass/settings.colors";
 
 @mixin shadow($op: 0.2, $inset: false, $more: '') {
-	@if($inset) {
-		@if($more != '') {
-			box-shadow: 0px 6px 18px rgba($color-black, $op) inset, $more;
-		} @else {
-			box-shadow: 0px 6px 18px rgba($color-black, $op) inset;
-		}
-	} @else {
-		@if($more != '') {
-			box-shadow: 0px 6px 18px rgba($color-black, $op), $more;
-		} @else {
-			box-shadow: 0px 6px 18px rgba($color-black, $op);
-		}
-	}
+    @if($inset) {
+        @if($more != '') {
+            box-shadow: 0px 6px 18px rgba($color-black, $op) inset, $more;
+        } @else {
+            box-shadow: 0px 6px 18px rgba($color-black, $op) inset;
+        }
+    } @else {
+        @if($more != '') {
+            box-shadow: 0px 6px 18px rgba($color-black, $op), $more;
+        } @else {
+            box-shadow: 0px 6px 18px rgba($color-black, $op);
+        }
+    }
 }
 
 
@@ -115,26 +115,30 @@
 @import "node_modules/inuitcss/generic/generic.shared";
 
 html {
-	font-family: "Roboto", "Open Sans", sans-serif;
-	font-weight: 300;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
 // ELEMENTS
 @import "node_modules/inuitcss/elements/elements.page";
-	$inuit-font-size-h1:  $inuit-global-font-size * 3;
-	$inuit-font-size-h2:  $inuit-global-font-size * 2;
-	// $inuit-font-size-h3:  24px !default;
-	// $inuit-font-size-h4:  20px !default;
-	// $inuit-font-size-h5:  18px !default;
-	// $inuit-font-size-h6:  16px !default;
+    $inuit-font-size-h1:  $inuit-global-font-size * 3;
+    $inuit-font-size-h2:  $inuit-global-font-size * 2;
+    // $inuit-font-size-h3:  24px !default;
+    // $inuit-font-size-h4:  20px !default;
+    // $inuit-font-size-h5:  18px !default;
+    // $inuit-font-size-h6:  16px !default;
 @import "node_modules/inuitcss/elements/elements.headings";
 @import "node_modules/inuitcss/elements/elements.images";
 @import "node_modules/inuitcss/elements/elements.tables";
 @import "_sass/elements.links";
 
+h3 {
+    font-weight: 300;
+}
 hr {
-	border: 0;
+    border: 0;
     height: 0;
     border-top: 1px solid rgba($color-black, 0.1);
 }
@@ -145,13 +149,13 @@ hr {
 // OBJECTS
 //
 // Uncomment and add to this section as necessary.
-	$inuit-wrapper-width: 1000px;
+    $inuit-wrapper-width: 1000px;
 @import "node_modules/inuitcss/objects/objects.wrapper";
 @import "node_modules/inuitcss/objects/objects.layout";
 // @import "node_modules/inuitcss/objects/objects.media";
 // @import "node_modules/inuitcss/objects/objects.flag";
 // @import "node_modules/inuitcss/objects/objects.list-bare";
-	$inuit-list-inline-delimiter: "\00A0\2022\00A0";
+    $inuit-list-inline-delimiter: "\00A0\2022\00A0";
 @import "node_modules/inuitcss/objects/objects.list-inline";
 // @import "node_modules/inuitcss/objects/objects.box";
 // @import "node_modules/inuitcss/objects/objects.block";
@@ -159,6 +163,18 @@ hr {
 // @import "node_modules/inuitcss/objects/objects.crop";
 @import "_sass/objects.section";
 
+/**
+ * Using Flexbox as the most stress-free method to equalize the height of all
+ * the layout items
+ */
+.o-layout--equalize {
+    display: flex;
+    overflow: hidden;
+
+    > .o-layout__item {
+        flex: 1;
+    }
+}
 
 
 
@@ -176,37 +192,46 @@ hr {
 @import "_sass/components.icon-fonts";
 
 .ic-svg {
-	&--translucent > * {
-		fill: $color-white;
-		stroke: $color-white;
-		opacity: .9;
-	}
+    &--translucent > * {
+        fill: $color-white;
+        stroke: $color-white;
+        opacity: .9;
+    }
 }
 
 .c-skills__btn {
-	border: 0;
-	background: none;
-	color: $color-brand-dark;
-	cursor: pointer;
-	transition: color .2s;
-	margin-bottom: $inuit-global-spacing-unit-small;
+    border: 0;
+    background: none;
+    color: $color-brand-dark;
+    // Temprarely deactivated
+    // cursor: pointer;
+    transition: color .2s;
+    margin-bottom: $inuit-global-spacing-unit-small;
 
-	@include inuit-hocus() {
-		color: $color-brand-primary;
-	}
+    // Temprarely deactivated
+    // @include inuit-hocus() {
+    //  color: $color-brand-primary;
+    // }
 
-	&.active {
-		color: $color-brand-primary;
-	}
+    &.active {
+        color: $color-brand-primary;
+    }
 }
 
-	.c-skills__icon {
-		font-size: 2em;
-		vertical-align: -20%;
-		margin-right: $inuit-global-spacing-unit-small;
-	}
+    .c-skills__icon {
+        font-size: 2em;
+        vertical-align: -20%;
+        margin-right: $inuit-global-spacing-unit-small;
+    }
 
 
+// PUGINS
+@import "node_modules/balloon-css/src/balloon";
+.p-balloon {
+    cursor: help;
+    border-bottom: 1px dotted $color-brand-primary;
+    text-align: center;
+}
 
 
 
@@ -220,9 +245,9 @@ hr {
 @import "_sass/utilities.shadows";
 
 .u-svg-shadow {
-	filter: drop-shadow(2px 2px 3px rgba($color-black, .1));
+    filter: drop-shadow(2px 2px 3px rgba($color-black, .1));
 }
 
 .u-center {
-	text-align: center;
+    text-align: center;
 }

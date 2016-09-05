@@ -7,6 +7,7 @@
     "inuitcss": "^6.0.0-beta.2"
   },
   "devDependencies": {
+    "balloon-css": "^0.3.0",
     "inuitcss": "^6.0.0-beta.2"
   },
   "scripts": {
@@ -16,7 +17,7 @@
   "license": "UNLICENSED",
   "private": true,
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/lhermann/codethink.de.git"
+    "type": "git",
+    "url": "https://github.com/lhermann/codethink.de.git"
   }
 }
