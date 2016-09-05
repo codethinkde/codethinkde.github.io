@@ -34,24 +34,24 @@
             keySplines="0.42 0 1 1; 0 0 0.59 1; 0.42 0 1 1;"
             calcMode="paced"/>
     </g>
-    <g style="opacity: 0;">
+    <g>
         <line x1="138.5" y1="283" x2="138.5" y2="208" class="f"/>
         <polygon points="149.1 211 138.7 192.9 128.2 211 " class="b"/>
-        <animate
+        <!-- <animate
             attributeType="CSS"
             attributeName="opacity"
             values="0; 1; 1; 0"
             keyTimes="0; 0.005; 0.9; 1"
             dur="5.6s"
             begin="trigger.end + .4"
-            fill="freeze"/>
+            fill="freeze"/> -->
         <animateTransform id="arrow1Appear"
             attributeName="transform"
             attributeType="XML"
             type="translate"
             begin="trigger.end + .4"
             dur=".3s"
-            values="0,6;0,0"/>
+            values="0,0; 0,-6 ;0,0"/>
     </g>
     <path d="M191 167.2c0 2.7-2.2 4.8-4.8 4.8H91.8c-2.7 0-4.8-2.2-4.8-4.8V60.8C87 58.2 89.2 56 91.8 56h94.3c2.7 0 4.8 2.2 4.8 4.8V167.2z" class="a"/>
     <line x1="87" y1="95" x2="191" y2="95" class="a"/>
@@ -73,24 +73,24 @@
         <use xlink:href="#circle1" x="0" y="38.6" />
         <use xlink:href="#circle1" x="0" y="77.2" />
     </g>
-    <g style="opacity: 0;">
+    <g>
         <line x1="235" y1="114.5" x2="344" y2="114.5" class="f"/>
         <polygon points="341 125 359.1 114.5 341 104 " class="b"/>
-        <animate
+        <!-- <animate
             attributeType="CSS"
             attributeName="opacity"
             values="0; 1; 1; 0"
             keyTimes="0; 0.01; 0.9; 1"
             dur="4.8s"
             begin="trigger.end + 1.2"
-            fill="freeze"/>
+            fill="freeze"/> -->
         <animateTransform id="arrow2Appear"
             attributeName="transform"
             attributeType="XML"
             type="translate"
             begin="trigger.end + 1.2"
             dur=".3s"
-            values="-6,0;0,0" />
+            values="0,0; 6,0; 0,0" />
     </g>
     <path d="M496 167.2c0 2.7-2.2 4.8-4.8 4.8h-94.3c-2.7 0-4.8-2.2-4.8-4.8V60.8c0-2.7 2.2-4.8 4.8-4.8h94.3c2.7 0 4.8 2.2 4.8 4.8V167.2z" class="a"/>
     <line x1="392" y1="95" x2="497" y2="95" class="a"/>
@@ -112,24 +112,24 @@
         <use xlink:href="#circle2" x="0" y="38.6" />
         <use xlink:href="#circle2" x="0" y="77.2" />
     </g>
-    <g style="opacity: 0;">
+    <g>
         <line x1="444.5" y1="186" x2="444.5" y2="226" class="f"/>
         <polygon points="434.2 223 444.7 241.1 455.1 223 " class="b"/>
-        <animate
+        <!-- <animate
             attributeType="CSS"
             attributeName="opacity"
             values="0; 1; 1; 0"
             keyTimes="0; 0.01; 0.9; 1"
             dur="4s"
             begin="trigger.end + 2.0"
-            fill="freeze"/>
+            fill="freeze"/> -->
         <animateTransform id="arrow3Appear"
             attributeName="transform"
             attributeType="XML"
             type="translate"
             begin="trigger.end + 2.0"
             dur=".3s"
-            values="0,-6;0,0"
+            values="0,0; 0,6; 0,0"
             repeatCount="0"/>
     </g>
     <g>
