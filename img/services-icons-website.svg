@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+	<style>
+		.a { fill: #f49142 }
+		.b { fill: none; stroke: #4c443d; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
+	</style>
+	<g>
+		<circle class="a" cx="227.666" cy="150.332" r="9"/>
+		<circle class="a" cx="71.666" cy="150.332" r="9"/>
+		<path class="b" d="
+			M206,82.637c0-4.77-3.867-8.637-8.638-8.637h-94.725C97.867,74,94,77.867,94,82.637v134.726c0,4.771,3.867,8.638,8.638,8.638
+			h94.725c4.771,0,8.638-3.867,8.638-8.638V82.637z"/>
+		<path class="b" d="
+			M82,97H39c-3.313,0-6,2.686-6,6v94c0,3.312,2.687,6,6,6h43"/>
+		<path class="b" d="
+			M218,203h43c3.313,0,6-2.688,6-6v-94c0-3.314-2.687-6-6-6h-43"/>
+		<circle class="a" cx="149.666" cy="150.332" r="9"/>
+	</g>
+</svg>
