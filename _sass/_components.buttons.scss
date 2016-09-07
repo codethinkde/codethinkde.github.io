@@ -3,8 +3,7 @@
    ========================================================================== */
 
 .c-btn {
-    background: $gradient-orange;
-    border: 0;
+    border: 2px solid $color-white;
     border-radius: $inuit-global-radius;
     color: $color-white;
     display: inline-block;
@@ -18,11 +17,16 @@
         color: $color-white;
         text-decoration: none;
     }
-}
 
-.c-btn--shaddow {
-    @include shadow();
-    @include inuit-hocus() {
-        @include shadow(.2, false, 0 0 80px rgba($color-black, .07) inset);
+    &--primary {
+        background: $gradient-orange;
+        border: 0;
+    }
+
+    &--shaddow {
+        @include shadow();
+        @include inuit-hocus() {
+            @include shadow(.2, false, 0 0 80px rgba($color-black, .07) inset);
+        }
     }
 }
