@@ -4,22 +4,24 @@
 
 // Brand Colors
 
-$color-brand-primary:             #ef882b;
-$color-brand-primary-highlight:   lighten($color-brand-primary, 10%);
-$color-brand-primary-shadow:      darken($color-brand-primary, 10%);
+$color-brand-primary:               #f49142;
+$color-brand-primary-highlight:     lighten($color-brand-primary, 10%);
+$color-brand-primary-shadow:        darken($color-brand-primary, 10%);
 
-$color-brand-secondary: #ed134a;
-$color-brand-secondary-highlight: lighten($color-brand-secondary, 10%);
-$color-brand-secondary-shadow:    darken($color-brand-secondary, 10%);
+$color-brand-secondary:             #f55d42;
+$color-brand-secondary-highlight:   lighten($color-brand-secondary, 10%);
+$color-brand-secondary-shadow:      darken($color-brand-secondary, 10%);
 
-$color-brand-dark: #4d4d4d;
+$color-brand-dark:                  #4c443d;
+
+$color-brand-light:                 #eedfbe;
 
 
 $color-black:       #000;
 $color-dark-gray:   #4d4d4d;
 $color-gray:        #ccc;
 $color-light-gray:  lighten($color-gray, 10%);
-$color-white:       #FFF;
+$color-white:       #fff;
 
 // Semantic color variables are daisy-chained onto their literal names.
 

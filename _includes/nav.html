@@ -2,7 +2,11 @@
 
     <div class="o-wrapper">
 
-        <a class="site-nav__logo" href="{{ site.baseurl }}/"><img class="site-logo" src="/img/logo.svg" alt=""></a>
+		{% if page.home %}
+        	<a class="site-nav__logo" href="{{ site.baseurl }}/"><img class="site-logo" src="/img/codethink-logo.svg" alt=""></a>
+        {% else %}
+        	<object class="site-nav__logo" data="/img/codethink-logo-animated.svg" type="image/svg+xml"></object>
+        {% endif %}
 
         <ul class="site-nav__list">
             <li class="site-nav__item"><a href="/ueberuns/" class="site-nav__link  site-nav__about">&Uuml;ber mich</a></li>

@@ -2,12 +2,20 @@
 layout: main
 ---
 
-<section class="o-section">
+{% include header.html %}
 
-	<div class="o-wrapper e-page-content">
+	<main id="main" class="page-content" role="main">
 
-		{{ content }}
+	    <section class="o-section">
 
-	</div>
+	    	<div class="o-wrapper e-page-content">
 
-</section>
+	    		{{ content }}
+
+	    	</div>
+
+	    </section>
+
+	</main>
+
+{% include footer.html %}

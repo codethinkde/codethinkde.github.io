@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html>
+---
+layout: main
+---
 
-    {% include head.html %}
+{% include header--landing.html %}
 
-    <body>
+	<main id="main" class="page-content" role="main">
 
-        {% include header--landing.html %}
+		{{ content }}
 
-        <main id="main" class="page-content" role="main">
+	</main>
 
-            {{ content }}
-
-        </main>
-
-        {% include footer.html %}
-
-    </body>
-
-</html>
+{% include footer.html %}
