@@ -14,10 +14,11 @@
         }
         .right-br {
             transform: translateX(-244px);
-            transition: transform .5s ease-in;
+            transition: transform .5s ease-in .1s;
         }
         svg:hover .right-br {
             transform: translateX(0px);
+            transition-delay: 0s;
         }
         .o { transition: opacity .3s ease .35s; }
         .d { transition: opacity .3s ease .3s; }

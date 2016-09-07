@@ -12,11 +12,11 @@ Codethink UG
 <br />Seelhofenstraße 76
 <br />74395 Mundelsheim
 
-## Vertreten durch
+### Vertreten durch
 
 Geschäftsführer: Lukas Hermann
 
-## Kontakt
+### Kontakt
 
 <table>
 	<tr>
@@ -29,18 +29,18 @@ Geschäftsführer: Lukas Hermann
 	</tr>
 </table>
 
-## Registereintrag
+### Registereintrag
 
 Eintragung im Handelsregister.
 <br />Registergericht: Stuttgart
 <br />Registernummer: (noch ausstehend)
 
-## Umsatzsteuer-ID
+### Umsatzsteuer-ID
 
 Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
 (noch ausstehend)
 
-## Hinweis auf EU-Streitschlichtung
+### Hinweis auf EU-Streitschlichtung
 
 Die Europäische Kommission stellt eine [Plattform zur Online-Streitbeilegung (OS) bereit](http://ec.europa.eu/consumers/odr){:target="_blank"}.
 <br /> Unsere E-Mail-Adresse finden sie oben im Impressum.

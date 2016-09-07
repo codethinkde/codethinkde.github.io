@@ -38,7 +38,7 @@
 
 
     /* Themes */
-    &--orange {
+    &--primary {
         background: $gradient-orange;
         color: $color-white;
     }
@@ -72,6 +72,25 @@
         &--justified {
             text-align: justify;
         }
+    }
+
+    .c-panel__emphasis {
+        // background: $color-light-gray;
+        border-bottom: 1px solid $color-brand-primary;
+        border-top: 1px solid $color-brand-primary;
+        font-weight: 500;
+        // margin: $inuit-global-spacing-unit-small (-$inuit-global-spacing-unit);
+        margin-bottom: $inuit-global-spacing-unit;
+        padding: $inuit-global-spacing-unit-tiny 0;
+        text-align: center;
+    }
+
+    .c-panel__list {
+        list-style: disc;
+    }
+
+    .c-panel__hr {
+        border-color: $color-brand-primary;
     }
 
     .c-panel__arrow-down {

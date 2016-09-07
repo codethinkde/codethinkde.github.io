@@ -28,7 +28,7 @@ Wenn Sie mit der Speicherung und Nutzung Ihrer Daten nicht einverstanden sind, k
 
 Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:
 
-- Browsertyp/ Browserversion
+- Browsertyp / Browserversion
 - verwendetes Betriebssystem
 - Referrer URL
 - Hostname des zugreifenden Rechners
