@@ -12,7 +12,7 @@
  * The following will generate a 12 and a 16 column grid system.
  */
 
-@include inuit-widths(12);
+@include inuit-widths(3);
 
 /**
  * Create a 12 and a 16 column grid system on screens over 1200px wide, and give
@@ -20,6 +20,10 @@
  *
  * <div class="u-3/12@lg">
  */
+
+@media screen and (min-width: 45em) {
+    @include inuit-widths(6, \@md);
+}
 
 @media screen and (min-width: 75em) {
     @include inuit-widths(12, \@lg);

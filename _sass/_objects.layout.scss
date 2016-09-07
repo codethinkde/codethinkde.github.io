@@ -4,25 +4,29 @@
 
 @import 'node_modules/inuitcss/objects/objects.layout';
 
-/**
- * Using Flexbox as the most stress-free method to equalize the height of all
- * the layout items
- */
-.o-layout--equalize {
-    display: flex;
 
-    > .o-layout__item {
-        flex: 1;
-    }
-}
-
-/**
- * Equalize div's that are children of .o-layout__item
- */
-.o-layout--equalize-deep {
-    @extend .o-layout--equalize;
-
-    > .o-layout__item {
+@include media-query(desk) {
+    /**
+     * Using Flexbox as the most stress-free method to equalize the height of all
+     * the layout items
+     */
+    .o-layout--equalize {
         display: flex;
+        margin-left: 0;
+
+        > .o-layout__item {
+            flex: 2;
+        }
+    }
+
+    /**
+     * Equalize div's that are children of .o-layout__item
+     */
+    .o-layout--equalize-deep {
+        @extend .o-layout--equalize;
+
+        > .o-layout__item {
+            display: flex;
+        }
     }
 }
