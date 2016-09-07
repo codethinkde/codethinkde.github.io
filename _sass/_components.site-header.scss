@@ -3,12 +3,10 @@
    ========================================================================== */
 
 .site-header {
-	background-image: url('../img/cover.jpg');
-	background-position: 50% 30%;
-	background-size: cover;
-
-	>.o-wrapper {
-		// padding-top: 30%;
+	&--landing {
+		background-image: url('../img/cover.jpg');
+		background-position: 50% 30%;
+		background-size: cover;
 	}
 }
 

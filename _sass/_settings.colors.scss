@@ -18,9 +18,9 @@ $color-brand-light:                 #eedfbe;
 
 
 $color-black:       #000;
-$color-dark-gray:   #4d4d4d;
-$color-gray:        #ccc;
-$color-light-gray:  lighten($color-gray, 10%);
+$color-dark-gray:   lighten($color-black, 20%);
+$color-gray:        lighten($color-black, 50%);
+$color-light-gray:  lighten($color-black, 90%);
 $color-white:       #fff;
 
 // Semantic color variables are daisy-chained onto their literal names.

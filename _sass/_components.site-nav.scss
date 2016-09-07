@@ -1,18 +1,30 @@
 /* ==========================================================================
    #SITE-NAV
    ========================================================================== */
+$nav-height: 80px;
 
 .site-nav {
-    background: linear-gradient(to right, rgba($color-white, .9) 30%, rgba($color-white, 0) 60%);
+    border-bottom: 1px solid $color-brand-light;
+
+    .site-header--landing & {
+        border: 0;
+    }
 }
 
+    .site-nav__child {
+        display: block;
+        max-height: $nav-height;
+        padding: $inuit-global-spacing-unit-small;
+    }
+
     .site-nav__logo {
+        background-color: $color-white;
+        border-radius: 0 0 $inuit-global-radius $inuit-global-radius;
         display: block;
         float: left;
-        max-height: 52px;
 
-        > img {
-            max-height: 100%;
+        &--img img {
+            max-height: $nav-height - $inuit-global-spacing-unit-small * 2;
         }
     }
 
@@ -27,13 +39,57 @@
         }
 
             .site-nav__link {
-                color: $color-nav-link;
+                color: $color-brand-dark;
                 display: block;
                 font-weight: 400;
-                line-height: 52px;
+                line-height: $nav-height - $inuit-global-spacing-unit-small * 2;
                 padding: 0 $inuit-global-spacing-unit-small;
+                position: relative;
 
                 @include inuit-hocus() {
+                    text-decoration: none;
+                }
+
+                .site-header--landing & {
                     color: $color-nav-link;
+
+                    @include inuit-hocus() {
+                        color: $color-nav-link;
+                        text-decoration: underline;
+                    }
+                }
+
+                &::before,
+                &::after {
+                    border-color: transparent;
+                    border-style: solid;
+                    // content: '';
+                    left: 50%;
+                    pointer-events: none;
+                    position: absolute;
+                }
+
+                &::before {
+                    border-bottom-color: $color-brand-light;
+                    border-width: 12px;
+                    bottom: -$inuit-global-spacing-unit-small;
+                    margin-left: -12px;
+                }
+
+                &::after {
+                    border-bottom-color: $color-white;
+                    border-width: 12px;
+                    bottom: -($inuit-global-spacing-unit-small + 1);
+                    margin-left: -12px;
+                }
+            }
+
+            .page--about .site-nav__about,
+            .page--pricing .site-nav__pricing {
+                color: $color-link;
+
+                &::before,
+                &::after {
+                    content: '';
                 }
             }
