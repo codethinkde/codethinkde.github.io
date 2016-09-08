@@ -4,8 +4,6 @@ title: Datenschutzerklärung
 permalink: /datenschutz/
 ---
 
-# Datenschutzerkl&auml;rung
-
 ## Datenschutz
 
 Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerkl&auml;rung.
