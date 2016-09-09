@@ -7,5 +7,6 @@ _site
 .jekyll-metadata
 
 # npm
-node_modules/
+node_modules/*
 !node_modules/inuitcss/
+!node_modules/sass-mq/
