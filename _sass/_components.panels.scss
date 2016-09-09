@@ -5,7 +5,7 @@
 // .c-panel__container {
 //     &--outline {
 //         border: 1px solid $color-brand-light;
-//         border-radius: $inuit-global-radius;
+//         border-radius: $global-radius;
 
 //         > :not(:last-child) > .c-panel {
 //             border-right: 1px solid $color-brand-light;
@@ -17,7 +17,7 @@
     @include shadow();
     background: $color-white;
     // filter: drop-shadow(0px 6px 18px rgba($color-black, .2));
-    border-radius: $inuit-global-radius;
+    border-radius: $global-radius;
     padding: $inuit-global-spacing-unit;
     position: relative;
 

@@ -5,7 +5,7 @@
 @import 'node_modules/inuitcss/objects/objects.layout';
 
 
-@include media-query(desk) {
+@include mq(desktop) {
     /**
      * Using Flexbox as the most stress-free method to equalize the height of all
      * the layout items

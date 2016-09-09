@@ -19,7 +19,7 @@ $nav-height: 80px;
 
     .site-nav__logo {
         background-color: $color-white;
-        border-radius: 0 0 $inuit-global-radius $inuit-global-radius;
+        border-radius: 0 0 $global-radius $global-radius;
         display: block;
         float: left;
 
@@ -46,14 +46,14 @@ $nav-height: 80px;
                 padding: 0 $inuit-global-spacing-unit-small;
                 position: relative;
 
-                @include inuit-hocus() {
+                @include hocus() {
                     text-decoration: none;
                 }
 
                 .site-header--landing & {
                     color: $color-nav-link;
 
-                    @include inuit-hocus() {
+                    @include hocus() {
                         color: $color-nav-link;
                         text-decoration: underline;
                     }

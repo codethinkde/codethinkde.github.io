@@ -3,27 +3,25 @@
    ========================================================================== */
 
 .o-section {
-	padding-bottom: $inuit-global-spacing-unit;
-	padding-top: $inuit-global-spacing-unit;
+    padding-bottom: $inuit-global-spacing-unit;
+    padding-top: $inuit-global-spacing-unit;
 
-	&--dark {
-		background-color: $color-brand-secondary;
-		color: $color-white;
-	}
+    &--dark {
+        background-color: $color-brand-secondary;
+        color: $color-white;
+    }
 }
 
-	.o-section__h2 {
-		border-bottom: 1px solid $color-brand-primary;
-		font-weight: 500;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
+    .o-section__h2 {
+        border-bottom: 1px solid $color-brand-primary;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 40%;
 
-		@include media-query(portable) {
-			font-size: 180%;
-		}
-
-		@include media-query(lap-and-up) {
-			width: 40%;
-		}
-	}
+        @include mq($until: tablet) {
+            font-size: 180%;
+            width: 100%;
+        }
+    }

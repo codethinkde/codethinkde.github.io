@@ -14,7 +14,7 @@
 		color: $color-white;
 		padding: $inuit-global-spacing-unit-large 0;
 
-		@include media-query(lap-and-up) {
+		@include mq($from: tablet) {
 			padding: $inuit-global-spacing-unit-huge 0;
 		}
 	}
@@ -23,13 +23,13 @@
 			font-size: 2em;
 			font-weight: 400;
 
-			@include media-query(lap-and-up) {
+			@include mq($from: tablet) {
 				font-size: 3em;
 			}
 		}
 
 		.site-header__description {
-			@include media-query(lap-and-up) {
+			@include mq($from: tablet) {
 				font-size: 1.5em;
 			}
 		}

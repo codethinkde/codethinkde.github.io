@@ -76,8 +76,8 @@
 
 // SETTINGS
 // @import "node_modules/inuitcss/settings/example.settings.config";
-@import "node_modules/inuitcss/settings/settings.global";
-@import "_sass/settings.breakpoints";
+@import "_sass/settings.global";
+@import "node_modules/inuitcss/settings/settings.core";
 @import "_sass/settings.colors";
 
 @mixin shadow($op: 0.2, $inset: false, $more: '') {
@@ -105,11 +105,19 @@
 
 
 // TOOLS
-@import "node_modules/inuitcss/tools/tools.functions";
-@import "node_modules/inuitcss/tools/tools.mixins";
-@import "node_modules/inuitcss/tools/tools.widths";
-@import "_sass/tools.media-queries";
+@import "node_modules/inuitcss/tools/tools.clearfix";
+@import "node_modules/inuitcss/tools/tools.font-size";
+@import "node_modules/inuitcss/tools/tools.hidden";
+@import "node_modules/inuitcss/tools/tools.rem";
+@import "node_modules/sass-mq/mq";
 
+// Generate `:hover` and `:focus` styles in one go.
+@mixin hocus() {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
 
 
 
@@ -206,7 +214,7 @@ hr {
     margin-bottom: $inuit-global-spacing-unit-small;
 
     // Temprarely deactivated
-    // @include inuit-hocus() {
+    // @include hocus() {
     //  color: $color-brand-primary;
     // }
 
@@ -234,11 +242,11 @@ hr {
 
 // UTILITIES
 // @import "node_modules/inuitcss/utilities/utilities.clearfix";
-@import "_sass/utilities.widths";
 // @import "node_modules/inuitcss/utilities/utilities.headings";
-@import "node_modules/inuitcss/utilities/utilities.spacing";
-@import "node_modules/inuitcss/utilities/utilities.print";
 // @import "node_modules/inuitcss/utilities/utilities.hide";
+@import "node_modules/inuitcss/utilities/utilities.print";
+@import "node_modules/inuitcss/utilities/utilities.spacing";
+@import "node_modules/inuitcss/utilities/utilities.widths";
 @import "_sass/utilities.shadows";
 
 .u-svg-shadow {
