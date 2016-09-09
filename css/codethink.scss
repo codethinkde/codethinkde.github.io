@@ -201,10 +201,21 @@ hr {
 @import "_sass/components.icon-fonts";
 
 .ic-svg {
-    &--translucent > * {
-        fill: $color-white;
-        stroke: $color-white;
+    &--translucent {
         opacity: .9;
+
+        .svg-fill {
+            fill: $color-white;
+        }
+
+        .svg-stroke {
+            fill: none;
+            stroke: $color-white;
+            stroke-width: 6;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 10;
+        }
     }
 }
 
