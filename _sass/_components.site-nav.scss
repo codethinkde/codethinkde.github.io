@@ -4,7 +4,7 @@
 $nav-height: 80px;
 
 .site-nav {
-    border-bottom: 1px solid $color-brand-light;
+    border-bottom: 1px solid $color-brand-primary;
 
     .site-header--landing & {
         border: 0;
@@ -70,7 +70,7 @@ $nav-height: 80px;
                 }
 
                 &::before {
-                    border-bottom-color: $color-brand-light;
+                    border-bottom-color: $color-brand-primary;
                     border-width: 12px;
                     bottom: -$inuit-global-spacing-unit-small;
                     margin-left: -12px;

@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #PAGE-HEADER
+   ========================================================================== */
+
+.page-header {
+	padding-bottom: $inuit-global-spacing-unit * 10;
+	position: relative;
+}
+
+	.page-header__title {
+		@include text-shadow;
+		// color: $color-white;
+		padding-top: $inuit-global-spacing-unit;
+	}
+
+	.page-header__bg {
+		background-image:
+			linear-gradient(to bottom, rgba($color-white, 0) 50%, rgba($color-white, 1) 100%),
+			url('../img/page-header.jpg');
+		background-size: cover;
+		padding-top: 60%;
+		position: absolute;
+		width: 100%;
+		z-index: -1;
+	}

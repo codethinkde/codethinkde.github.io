@@ -14,9 +14,9 @@
 // }
 
 .c-panel {
-    // background: $color-white;
-    // filter: drop-shadow(0px 6px 18px rgba($color-black, .2));
     @include shadow();
+    background: $color-white;
+    // filter: drop-shadow(0px 6px 18px rgba($color-black, .2));
     border-radius: $inuit-global-radius;
     padding: $inuit-global-spacing-unit;
     position: relative;
