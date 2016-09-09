@@ -52,6 +52,10 @@
         color: $color-brand-light;
     }
 
+    &--flat {
+        box-shadow: none;
+    }
+
     &--outline {
         border: 1px solid $color-brand-light;
         border-radius: 0;
