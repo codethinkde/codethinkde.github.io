@@ -1,9 +1,13 @@
 ---
 layout: page
 page-class: page--about
-title: Über mich
+title: Über uns
 permalink: /ueberuns/
 ---
+
+...
+
+## Geschäftsführer
 
 Hallo, ich bin Lukas, Web Engineer und Christ.
 
