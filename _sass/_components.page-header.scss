@@ -25,11 +25,11 @@
 	}
 
 	.page-header__title {
+		font-weight: 400;
 		margin-bottom: 0;
 		padding-top: $inuit-global-spacing-unit;
 
 		.page-header__bg + & {
-			@include text-shadow;
-			padding-bottom: $inuit-global-spacing-unit * 10;
+			margin-bottom: 24%;
 		}
 	}

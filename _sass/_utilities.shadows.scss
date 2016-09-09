@@ -13,3 +13,11 @@
 .u-text-shadow {
 	@include text-shadow;
 }
+
+.u-text-negative-shadow {
+	@include text-shadow($type: negative);
+}
+
+.u-svg-shadow {
+    filter: drop-shadow(2px 2px 3px rgba($color-black, .1));
+}
