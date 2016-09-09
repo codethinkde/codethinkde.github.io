@@ -18,6 +18,10 @@ github_username:  lhermann
 # SCSS
 sass:
   sass_dir: "/"
+  # style: compressed
+
+exclude:
+    - node_modules
 
 # Build settings
 markdown: kramdown

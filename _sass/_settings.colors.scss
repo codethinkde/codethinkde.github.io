@@ -41,11 +41,17 @@ $color-nav-link:                $color-white;
 /**
  * Gradients
  */
-$gradient-orange-dark: #ea541a;
-$gradient-orange-bright: #f49142;
+$gradient-primary-bright:   $color-brand-primary;
+$gradient-primary-dark:     $color-brand-secondary;
 
-$gradient-orange:       linear-gradient(135deg, $gradient-orange-bright 0%, $gradient-orange-dark 100%);
-$gradient-orange-hover: linear-gradient(135deg, darken($gradient-orange-bright, 1%) 0%, darken($gradient-orange-dark, 5%) 100%);
+$gradient-primary:          linear-gradient(135deg, $gradient-primary-bright 0%, $gradient-primary-dark 100%);
+$gradient-primary-hover:    linear-gradient(135deg, darken($gradient-primary-bright, 1%) 0%, darken($gradient-primary-dark, 5%) 100%);
+
+$gradient-secondary-bright: $color-brand-secondary;
+$gradient-secondary-dark:   darken($color-brand-secondary, 15%);
+
+$gradient-secondary:        linear-gradient(135deg, $gradient-secondary-bright 0%, $gradient-secondary-dark 100%);
+$gradient-secondary-hover:  linear-gradient(135deg, darken($gradient-secondary-bright, 1%) 0%, darken($gradient-secondary-dark, 5%) 100%);
 
 
 

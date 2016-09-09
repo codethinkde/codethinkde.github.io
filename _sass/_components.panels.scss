@@ -21,6 +21,10 @@
     padding: $inuit-global-spacing-unit;
     position: relative;
 
+    > *:last-child {
+        margin-bottom: 0 !important;
+    }
+
     /* Variations */
     &--centering {
         text-align: center;
@@ -39,8 +43,13 @@
 
     /* Themes */
     &--primary {
-        background: $gradient-orange;
+        background: $gradient-primary;
         color: $color-white;
+    }
+
+    &--dark {
+        background-color: $color-brand-dark;
+        color: $color-brand-light;
     }
 
     &--outline {
@@ -53,21 +62,28 @@
 }
 
     .c-panel__img {
-        margin-bottom: $inuit-global-spacing-unit-small;
+        margin-bottom: $inuit-global-spacing-unit;
         text-align: center;
     }
 
     .c-panel__heading {
-        margin-bottom: $inuit-global-spacing-unit-small;
+        // margin-bottom: $inuit-global-spacing-unit;
+
+        &--primary {
+            background: $gradient-primary;
+            border-bottom: 1px solid #e6e6e6;
+            border-radius: $global-radius $global-radius 0 0;
+            color: $color-white;
+            padding: ($inuit-global-spacing-unit * 2 / 3) $inuit-global-spacing-unit;
+            margin-top: -$inuit-global-spacing-unit;
+            margin-left: -$inuit-global-spacing-unit;
+            margin-right: -$inuit-global-spacing-unit;
+        }
     }
 
     .c-panel__content {
         font-size: .875em;
         opacity: .7;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
 
         &--justified {
             text-align: justify;

@@ -156,6 +156,10 @@ hr {
     border-top: 1px solid $color-brand-light;
 }
 
+.e-hr--primary {
+    border-color: $color-brand-primary;
+}
+
 .e-page-content {
     h2 {
         border-bottom: 1px solid $color-brand-primary;
@@ -232,6 +236,7 @@ hr {
 
 // PUGINS
 @import "node_modules/balloon-css/src/balloon";
+
 .p-balloon {
     cursor: help;
     border-bottom: 1px dotted $color-brand-primary;
@@ -242,7 +247,7 @@ hr {
 
 // UTILITIES
 // @import "node_modules/inuitcss/utilities/utilities.clearfix";
-// @import "node_modules/inuitcss/utilities/utilities.headings";
+@import "node_modules/inuitcss/utilities/utilities.headings";
 // @import "node_modules/inuitcss/utilities/utilities.hide";
 @import "node_modules/inuitcss/utilities/utilities.print";
 @import "node_modules/inuitcss/utilities/utilities.spacing";
@@ -255,4 +260,9 @@ hr {
 
 .u-center {
     text-align: center;
+}
+
+.u-center-block {
+    margin-left: auto;
+    margin-right: auto;
 }

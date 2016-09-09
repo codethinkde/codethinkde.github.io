@@ -9,3 +9,7 @@
 .u-receive-shadow {
 	box-shadow: 0 0 20px rgba($color-black, .1) inset;
 }
+
+.u-text-shadow {
+	@include text-shadow;
+}

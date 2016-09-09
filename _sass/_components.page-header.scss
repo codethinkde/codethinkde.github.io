@@ -3,23 +3,33 @@
    ========================================================================== */
 
 .page-header {
-	padding-bottom: $inuit-global-spacing-unit * 10;
+	margin-bottom: $inuit-global-spacing-unit;
 	position: relative;
+
+	&--border {
+		border-bottom: 1px solid $color-brand-primary;
+	}
 }
 
-	.page-header__title {
-		@include text-shadow;
-		// color: $color-white;
-		padding-top: $inuit-global-spacing-unit;
-	}
-
 	.page-header__bg {
-		background-image:
-			linear-gradient(to bottom, rgba($color-white, 0) 50%, rgba($color-white, 1) 100%),
-			url('../img/page-header.jpg');
+		// background-image: linear-gradient(to bottom, rgba($color-white, 0) 50%, rgba($color-white, 1) 100%), url('../img/page-header.jpg');
 		background-size: cover;
 		padding-top: 60%;
 		position: absolute;
 		width: 100%;
 		z-index: -1;
+
+		.page--pricing & {
+			background-image: linear-gradient(to bottom, rgba($color-white, 0) 50%, rgba($color-white, 1) 100%), url('../img/page-header--pricing.jpg');
+		}
+	}
+
+	.page-header__title {
+		margin-bottom: 0;
+		padding-top: $inuit-global-spacing-unit;
+
+		.page-header__bg + & {
+			@include text-shadow;
+			padding-bottom: $inuit-global-spacing-unit * 10;
+		}
 	}

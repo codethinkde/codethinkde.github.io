@@ -18,7 +18,8 @@ module.exports = function(grunt) {
                 "customTests": [],
                 "dest": "js/modernizr.js",
                 "tests": [
-                    "multiplebgs"
+                    "multiplebgs",
+                    "flexbox"
                 ],
                 "options": [
                     "setClasses"

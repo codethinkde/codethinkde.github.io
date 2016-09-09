@@ -6,8 +6,8 @@
     padding-bottom: $inuit-global-spacing-unit;
     padding-top: $inuit-global-spacing-unit;
 
-    &--dark {
-        background-color: $color-brand-secondary;
+    &--secondary {
+        background: $gradient-secondary;
         color: $color-white;
     }
 }
