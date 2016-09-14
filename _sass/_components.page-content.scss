@@ -1,0 +1,29 @@
+/* ==========================================================================
+   #PAGE-CONTENT
+   ========================================================================== */
+
+.c-page-content {
+    h2 {
+        border-bottom: 1px solid $color-brand-primary;
+        font-weight: 400;
+    }
+}
+
+	%c-content-img {
+		margin-bottom: $inuit-global-spacing-unit;
+		max-width: 300px;
+	}
+
+	.c-img-left {
+		@extend %c-content-img;
+		border-right: 1px solid $color-brand-primary;
+		float: left;
+		margin-right: $inuit-global-spacing-unit;
+	}
+
+	.c-img-right {
+		@extend %c-content-img;
+		border-left: 1px solid $color-brand-primary;
+		float: right;
+		margin-left: $inuit-global-spacing-unit;
+	}

@@ -164,13 +164,6 @@ hr {
     border-color: $color-brand-primary;
 }
 
-.e-page-content {
-    h2 {
-        border-bottom: 1px solid $color-brand-primary;
-        font-weight: 400;
-    }
-}
-
 
 
 
@@ -200,6 +193,7 @@ hr {
 // @import "_sass/components.site-content.scss";
 @import "_sass/components.site-footer";
 @import "_sass/components.page-header";
+@import "_sass/components.page-content";
 @import "_sass/components.panels";
 @import "_sass/components.buttons";
 @import "_sass/components.icon-fonts";
@@ -261,7 +255,7 @@ hr {
 
 
 // UTILITIES
-// @import "node_modules/inuitcss/utilities/utilities.clearfix";
+@import "node_modules/inuitcss/utilities/utilities.clearfix";
 @import "node_modules/inuitcss/utilities/utilities.headings";
 // @import "node_modules/inuitcss/utilities/utilities.hide";
 @import "node_modules/inuitcss/utilities/utilities.print";
