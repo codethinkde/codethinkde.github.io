@@ -2,7 +2,7 @@
    #PAGE-HEADER
    ========================================================================== */
 
-.page-header {
+.c-page-header {
 	margin-bottom: $inuit-global-spacing-unit;
 	position: relative;
 
@@ -11,25 +11,30 @@
 	}
 }
 
-	.page-header__bg {
+	.c-page-header__bg {
 		// background-image: linear-gradient(to bottom, rgba($color-white, 0) 50%, rgba($color-white, 1) 100%), url('../img/page-header.jpg');
 		background-size: cover;
-		padding-top: 60%;
+		padding-top: 56%;
 		position: absolute;
 		width: 100%;
 		z-index: -1;
-
-		.page--pricing & {
-			background-image: linear-gradient(to bottom, rgba($color-white, 0) 50%, rgba($color-white, 1) 100%), url('../img/page-header--pricing.jpg');
-		}
 	}
 
-	.page-header__title {
+	.c-page-header__title {
 		font-weight: 400;
 		margin-bottom: 0;
 		padding-top: $inuit-global-spacing-unit;
 
-		.page-header__bg + & {
-			margin-bottom: 24%;
+		.c-page-header--dark & {
+			@include text-shadow($op: .6);
+			color: $color-white;
+		}
+
+		.c-page-header--light & {
+			@include text-shadow($type: negative);
+		}
+
+		.c-page-header__bg + & {
+			margin-bottom: 20%;
 		}
 	}

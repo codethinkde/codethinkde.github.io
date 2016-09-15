@@ -3,27 +3,50 @@
    ========================================================================== */
 
 .c-page-content {
+    position: relative;
+
     h2 {
         border-bottom: 1px solid $color-brand-primary;
         font-weight: 400;
     }
+
+	// Variations
+	.page--header-img &--white {
+		background-color: $color-white;
+		padding-top: $inuit-global-spacing-unit;
+
+		@include mq($from: desktop) {
+			border-radius: $global-radius;
+		}
+	}
 }
+
 
 	%c-content-img {
 		margin-bottom: $inuit-global-spacing-unit;
-		max-width: 300px;
+		width: 100%;
+
+		@include mq($from: tablet) {
+			max-width: 300px;
+		}
 	}
 
 	.c-img-left {
 		@extend %c-content-img;
-		border-right: 1px solid $color-brand-primary;
-		float: left;
-		margin-right: $inuit-global-spacing-unit;
+
+		@include mq($from: tablet) {
+			border-right: 1px solid $color-brand-primary;
+			float: left;
+			margin-right: $inuit-global-spacing-unit;
+		}
 	}
 
 	.c-img-right {
 		@extend %c-content-img;
-		border-left: 1px solid $color-brand-primary;
-		float: right;
-		margin-left: $inuit-global-spacing-unit;
+
+		@include mq($from: tablet) {
+			border-left: 1px solid $color-brand-primary;
+			float: right;
+			margin-left: $inuit-global-spacing-unit;
+		}
 	}

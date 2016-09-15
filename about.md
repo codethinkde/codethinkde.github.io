@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: page--header-img
 page-class: page--about
 title: Über uns
 permalink: /ueberuns/
+header-img: page-header--about.jpg
+header-theme: dark
+background: white
 ---
 
 Wir sind auf die gestaltung und programmierung langlebiger und zukunfstorientierter Websiten und Webaplikationen spezialisiert. Unsere Websiten sind speziell optimiert für Geschwindigkeit, Skallierbarkeit und Mobile Endgeräte.
@@ -18,7 +21,7 @@ Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Host
 - **Echtes Design** – Nicht nur ästetisch, sondern auch Benutzerfreundlich
 - **Nachhaltigkeit** – Schnell-schnell Lösungen kreieren Probleme auf lange Sicht
 
-![Alt text](/img/about-lukas-hermann.jpg){: .c-img-left}
+![Alt text](/img/about-lukas-hermann.jpg){: .c-img-right}
 
 ## Geschäftsführer
 

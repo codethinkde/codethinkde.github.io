@@ -1,0 +1,32 @@
+---
+layout: main
+page-class: page--header-img
+---
+
+{% include header.html %}
+
+    <main id="main" class="c-page-container" role="main">
+
+    	<header class="c-page-header c-page-header--img c-page-header--{{ page.header-theme }}">
+
+    	    <div class="c-page-header__bg" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%), url('../img/{{ page.header-img }}')"></div>
+
+    	    <div class="o-wrapper c-page-header__title">
+
+    	        <h1>{{ page.title }}</h1>
+
+    	    </div>
+
+    	</header>
+
+    	<section class="o-section u-margin-bottom">
+    	    <div class="o-wrapper c-page-content c-page-content--{{ page.background }}">
+
+		        {{ content }}
+
+        	</div>
+        </section>
+
+    </main>
+
+{% include footer.html %}
