@@ -25,6 +25,12 @@
 		margin-bottom: 0;
 		padding-top: $inuit-global-spacing-unit;
 
+		h1 {
+			@include mq($until: tablet) {
+				font-size: 200%;
+			}
+		}
+
 		.c-page-header--dark & {
 			@include text-shadow($op: .6);
 			color: $color-white;

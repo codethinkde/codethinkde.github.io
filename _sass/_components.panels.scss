@@ -54,6 +54,12 @@
 
     &--flat {
         box-shadow: none;
+
+        .o-layout__item:not(:last-child) & {
+            @include mq($until: desktop) {
+                border-bottom: 1px solid $color-brand-light;
+            }
+        }
     }
 
     &--outline {
@@ -78,10 +84,10 @@
             border-bottom: 1px solid #e6e6e6;
             border-radius: $global-radius $global-radius 0 0;
             color: $color-white;
-            padding: ($inuit-global-spacing-unit * 2 / 3) $inuit-global-spacing-unit;
-            margin-top: -$inuit-global-spacing-unit;
             margin-left: -$inuit-global-spacing-unit;
             margin-right: -$inuit-global-spacing-unit;
+            margin-top: -$inuit-global-spacing-unit;
+            padding: ($inuit-global-spacing-unit * 2 / 3) $inuit-global-spacing-unit;
         }
     }
 

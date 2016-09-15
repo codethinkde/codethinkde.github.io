@@ -20,8 +20,7 @@
         text-align: center;
         width: 40%;
 
-        @include mq($until: tablet) {
-            font-size: 180%;
+        @include mq($until: desktop) {
             width: 100%;
         }
     }

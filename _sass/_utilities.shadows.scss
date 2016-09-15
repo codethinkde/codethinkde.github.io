@@ -14,6 +14,10 @@
 	@include text-shadow;
 }
 
+.u-text-heavy-shadow {
+	@include text-shadow($op: 0.6);
+}
+
 .u-text-negative-shadow {
 	@include text-shadow($type: negative);
 }

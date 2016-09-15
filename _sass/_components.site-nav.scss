@@ -12,19 +12,22 @@ $nav-height: 80px;
 }
 
     .site-nav__child {
-        display: inline-block;
-        max-height: $nav-height;
+        height: $nav-height;
         padding-bottom: $inuit-global-spacing-unit-small;
         padding-top: $inuit-global-spacing-unit-small;
 
-        // @include mq($from: tablet) {
-        //     padding: $inuit-global-spacing-unit-small;
-        // }
+        @include mq($from: tablet) {
+            display: inline-block;
+        }
     }
 
+    /*
+     * [1] Because .site_nav--logo can be an <a> tag
+     */
     .site-nav__logo {
         background-color: $color-white;
         border-radius: 0 0 $global-radius $global-radius;
+        display: inline-block; /* [1] */
         padding-left: $inuit-global-spacing-unit-small;
         padding-right: $inuit-global-spacing-unit-small;
 
@@ -47,7 +50,7 @@ $nav-height: 80px;
     }
 
         .site-nav__item {
-            float: left;
+            display: inline-block;
         }
 
             .site-nav__link {
