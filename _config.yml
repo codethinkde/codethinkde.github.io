@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Codethink - Web-Entwicklung
+title: Codethink - Web-Engeneering, Front-End Development, SSG
 email: lukas@codethink.de
 description: > # this means to ignore newlines until "baseurl:"
-  Web-Entwicklung – Linux Webserver, Wordpress, Static Site Generators
+  Entwicklung langlebiger und nachhaltiger Internetseiten mit neusten Web-Technologien
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://codethink.de" # the base hostname & protocol for your site
 twitter_username: lukhermann
