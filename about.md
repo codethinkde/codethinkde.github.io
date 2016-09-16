@@ -21,7 +21,7 @@ Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Host
 - **Echtes Design** – Nicht nur ästetisch, sondern auch Benutzerfreundlich
 - **Nachhaltigkeit** – Schnell-schnell Lösungen kreieren Probleme auf lange Sicht
 
-![Alt text](/img/about-lukas-hermann.jpg){: .c-img-right}
+![Portrait von Lukas Hermann](/img/about-lukas-hermann.jpg){: .c-img-right}
 
 ## Geschäftsführer
 
