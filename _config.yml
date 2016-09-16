@@ -31,3 +31,5 @@ markdown: kramdown
 #Autoprefixer is great but takes 2 sec on each build
 #Maybe include it into a deploy pipeline with grunt
 #gems: [octopress-autoprefixer] # Porduction
+gems:
+  - jekyll-sitemap
