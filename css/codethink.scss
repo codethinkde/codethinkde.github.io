@@ -276,3 +276,11 @@ hr {
     color: rgba($color-black, .6);
     font-size: 60%;
 }
+
+.u-ic-link {
+    color: $color-brand-dark;
+    font-size: 2em;
+    @include hocus() {
+        text-decoration: none;
+    }
+}

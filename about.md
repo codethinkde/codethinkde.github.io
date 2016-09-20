@@ -27,9 +27,10 @@ Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Host
 
 Hallo, ich bin Lukas Hermann, Web-Engineer und Christ. Ich fand meine Passion in Website-Entwicklung und Unternehmensführung. Ich liebe es, neue dinge zu lernen und herausfordernde Projekte anzupacken.
 
-[LinkedIn](https://de.linkedin.com/in/lukas-hermann){:target="_blank"}
-[Xing](https://www.xing.com/profile/Lukas_Hermann8){:target="_blank"}
-[Github](https://github.com/lhermann){:target="_blank"}
+<a class="u-ic-link" href="https://de.linkedin.com/in/lukas-hermann" title="LinkedIn" target="_blank"><span class="ic-linkedin"></span></a>
+<a class="u-ic-link" href="https://www.xing.com/profile/Lukas_Hermann8" title="Xing" target="_blank"><span class="ic-xing"></span></a>
+<a class="u-ic-link" href="https://github.com/lhermann" title="Github" target="_blank"><span class="ic-github"></span></a>
+<a class="u-ic-link" href="mailto:lukas@codethink.de" title="E-Mail"><span class="ic-mail"></span></a>
 
 <div class="u-clearfix"></div>
 
