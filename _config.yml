@@ -23,6 +23,7 @@ sass:
 # Speed up jekyll build time
 exclude:
     - node_modules
+    - serve.sh
 
 # Build settings
 markdown: kramdown
