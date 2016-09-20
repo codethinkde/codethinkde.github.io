@@ -18,7 +18,7 @@ github_username:  lhermann
 # SCSS
 sass:
   sass_dir: "/"
-  # style: compressed # Production
+  style: compressed # Production
 
 # Speed up jekyll build time
 exclude:
@@ -30,5 +30,5 @@ markdown: kramdown
 
 # Plugins
 gems:
-  #- jekyll-sitemap # Production
-  #- octopress-autoprefixer # Production (Autoprefixer is great but takes 2 sec on each build)
+  - jekyll-sitemap # Production
+  - octopress-autoprefixer # Production (Autoprefixer is great but takes 2 sec on each build)
