@@ -14,7 +14,7 @@ Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Host
 
 ## Philosophie
 
-- **Simplizität** – Vermeide unnötige komplexität woimmer möglich
+- **Simplizität** – Vermeide unnötige komplexität wo immer möglich
 - **Ehrlichkeit** – Stehe für Fehler ein; nutze den Anderen niemals aus, sondern suche sein Bestes
 - **Belehrbarkeit** – Lerne aus Fehlern, lerne von Anderen
 - **Kommunikation** – Halte das Team und den Kunden auf dem laufenden, lieber zu viel als zu wenig
@@ -25,7 +25,7 @@ Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Host
 
 ## Geschäftsführer
 
-Hallo, ich bin Lukas Hermann, Web-Engineer und Christ. Ich fand meine Passion in Website-Entwicklung und Unternehmensführung. Ich liebe es, neue dinge zu lernen und herausfordernde Projekte anzupacken.
+Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe es, neue dinge zu lernen und herausfordernde Projekte anzupacken.
 
 <a class="u-ic-link" href="https://de.linkedin.com/in/lukas-hermann" title="LinkedIn" target="_blank"><span class="ic-linkedin"></span></a>
 <a class="u-ic-link" href="https://www.xing.com/profile/Lukas_Hermann8" title="Xing" target="_blank"><span class="ic-xing"></span></a>
