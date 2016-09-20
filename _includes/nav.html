@@ -5,7 +5,11 @@
 		{% if page.home %}
         	<a class="site-nav__child site-nav__logo site-nav__logo--img" href="{{ site.baseurl }}/"><img class="site-logo" src="/img/codethink-logo.svg" alt=""></a>
         {% else %}
+            <a class="site-nav__child site-nav__logo site-nav__logo--img" href="{{ site.baseurl }}/"><img class="site-logo" src="/img/codethink-logo.svg" alt=""></a>
+            {% comment %}
+            <!-- Android Browser has trouble with <object>, have to find a drifferent solution -->
         	<object class="site-nav__child site-nav__logo site-nav__logo--object" data="/img/codethink-logo-animated.svg" type="image/svg+xml"></object>
+            {% endcomment %}
         {% endif %}
 
         <ul class="site-nav__child site-nav__list">
