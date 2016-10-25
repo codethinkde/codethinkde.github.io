@@ -30,13 +30,13 @@ Geschäftsführer: Lukas Hermann
 ### Registereintrag
 
 Eintragung im Handelsregister.
-<br />Registergericht: Stuttgart
-<br />Registernummer: (noch ausstehend)
+<br />Registergericht: Amtsgericht Stuttgart
+<br />Registernummer: HRB 758020
 
 ### Umsatzsteuer-ID
 
 Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-(noch ausstehend)
+DE307881618
 
 ### Hinweis auf EU-Streitschlichtung
 
