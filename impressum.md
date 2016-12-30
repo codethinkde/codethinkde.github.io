@@ -19,7 +19,7 @@ Geschäftsführer: Lukas Hermann
 <table>
 	<tr>
 		<td>Telefon:</td>
-		<td>+49 172 7418 756</td>
+		<td>+49 152 2368 4896</td>
 	</tr>
 	<tr>
 		<td>E-Mail:</td>
