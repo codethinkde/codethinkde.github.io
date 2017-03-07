@@ -8,24 +8,24 @@ header-theme: dark
 background: white
 ---
 
-Wir sind auf die gestaltung und programmierung langlebiger und zukunfstorientierter Websiten und Webaplikationen spezialisiert. Unsere Websiten sind speziell optimiert für Geschwindigkeit, Skallierbarkeit und Mobile Endgeräte.
+Wir sind auf die Gestaltung und Programmierung langlebiger und zukunfstorientierter Webseiten und Webaplikationen spezialisiert. Unsere Webseiten sind speziell optimiert für Geschwindigkeit, Skallierbarkeit und mobile Endgeräte.
 
-Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Hosting, Spagetticode und alles weitere was den meisten Menschen wie Keilschrift erscheint.
+Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Hosting, Spagetticode und alles weitere, was den meisten Menschen wie Keilschrift erscheint.
 
 ## Philosophie
 
-- **Simplizität** – Vermeide unnötige komplexität wo immer möglich
-- **Ehrlichkeit** – Stehe für Fehler ein; nutze den Anderen niemals aus, sondern suche sein Bestes
-- **Belehrbarkeit** – Lerne aus Fehlern, lerne von Anderen
-- **Kommunikation** – Halte das Team und den Kunden auf dem laufenden, lieber zu viel als zu wenig
-- **Echtes Design** – Nicht nur ästetisch, sondern auch Benutzerfreundlich
-- **Nachhaltigkeit** – Schnell-schnell Lösungen kreieren Probleme auf lange Sicht
+- **Simplizität** – Vermeide unnötige Komplexität wo immer möglich
+- **Ehrlichkeit** – Stehe für Fehler ein; nutze den anderen niemals aus, sondern suche sein Bestes
+- **Belehrbarkeit** – Lerne aus den Fehlern, lerne von anderen
+- **Kommunikation** – Halte das Team und den Kunden auf dem Laufenden
+- **Echtes Design** – Nicht nur ästetisch, sondern auch benutzerfreundlich
+- **Nachhaltigkeit** – Softwareentwicklung für langlebige Projekte
 
 ![Portrait von Lukas Hermann](/img/about-lukas-hermann.jpg){: .c-img-right}
 
 ## Geschäftsführer
 
-Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe es, neue dinge zu lernen und herausfordernde Projekte anzupacken.
+Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe es, neue Dinge zu lernen und herausfordernde Projekte anzupacken.
 
 <a class="u-ic-link" href="https://de.linkedin.com/in/lukas-hermann" title="LinkedIn" target="_blank"><span class="ic-linkedin"></span></a>
 <a class="u-ic-link" href="https://www.xing.com/profile/Lukas_Hermann8" title="Xing" target="_blank"><span class="ic-xing"></span></a>
@@ -34,19 +34,19 @@ Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe 
 
 <div class="u-clearfix"></div>
 
-## Über diese Website
+## Über diese Webseite
 
 codethink.de verwendet neuste Web-Technologien die es uns erlauben effizient, schnell und einfach Änderungen an dieser Seite vorzunehmen.
 
-codethink.de wurde mit [Jekyll][1]{:target="_blank"} gebaut, einem Open-Source Static Site Generator, und wird mit [Github Pages][2]{:target="_blank"} gehostet.
+codethink.de wurde mit [Jekyll][1] gebaut, einem Open-Source Static Site Generator, und wird mit [Github Pages][2] gehostet.
 
-Das Stylesheet wurde in [Sass][3]{:target="_blank"} geschrieben und basiert auf [Harry Robert][4]{:target="_blank"}'s [inuitcss Framework][5]{:target="_blank"}. Inuitcss ist auf pflegeleichten, skallierbaren Code fokusiert und ist dadurch selbst bei großen Webprojekten übersichtlich, wartungsarm und kommt mit kleinen Dateigrößen aus.
+Das Stylesheet wurde in [Sass][3] geschrieben und basiert auf [Harry Robert][4]'s [inuitcss Framework][5]. Inuitcss ist auf pflegeleichten, skallierbaren Code fokusiert und ist dadurch selbst bei großen Webprojekten übersichtlich, wartungsarm und kommt mit kleinen Dateigrößen aus.
 
-Der Aufbau von codethink.de ist [semantisch][6]{:target="_blank"} und ausgestattet mit [Facebook's Open Graph][7]{:target="_blank"} und [schema.org Rich Data][8]{:target="_blank"} welches von Google verstanden wird.
+Der Aufbau von codethink.de ist [semantisch][6] und ausgestattet mit [Facebook's Open Graph][7] und [schema.org Rich Data][8] welches von Google verstanden wird.
 
-Unser Quellcode ist [öffentlich auf Github][9]{:target="_blank"} und darf gerne begutachtet werden.
+Unser Quellcode ist [öffentlich auf Github][9] und darf gerne begutachtet werden.
 
-Sie möchten auch solch eine Seite? Oder mächten Sie ihre eigene Seite verbessern?
+Sie möchten auch solch eine Seite? Oder möchten Sie ihre eigene Seite verbessern?
 
 <a class="c-btn c-btn--primary" href="mailto:lukas@codethink.de?subject=Zusammenarbeit">Kontaktieren Sie uns</a>
 
