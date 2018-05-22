@@ -6,14 +6,16 @@
   "dependencies": {},
   "devDependencies": {
     "balloon-css": "^0.3.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-modernizr": "^1.0.2",
-    "inuitcss": "^6.0.0-beta.2",
-    "modernizr": "^3.3.1"
+    "grunt": "^1.0.2",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-modernizr": "^1.0.3",
+    "inuitcss": "^6.0.0",
+    "modernizr": "^3.6.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bundle exec jekyll serve --incremental",
+    "start": "npm run dev"
   },
   "author": "Lukas Hermann <lukas@codethink.de> (http://codethink.de/)",
   "license": "UNLICENSED",

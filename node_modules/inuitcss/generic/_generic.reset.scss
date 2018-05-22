@@ -18,6 +18,7 @@ fieldset, legend {
 }
 
 
+
 /**
  * Remove trailing margins from nested lists.
  */
@@ -32,6 +33,7 @@ li > {
 }
 
 
+
 /**
  * Remove default table spacing.
  */
@@ -39,4 +41,16 @@ li > {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+
+
+/**
+ * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ *    on fieldsets.
+ */
+
+fieldset {
+  min-width: 0; /* [1] */
+  border: 0;
 }

@@ -112,7 +112,6 @@
 @import "node_modules/inuitcss/tools/tools.clearfix";
 @import "node_modules/inuitcss/tools/tools.font-size";
 @import "node_modules/inuitcss/tools/tools.hidden";
-@import "node_modules/inuitcss/tools/tools.rem";
 @import "node_modules/sass-mq/mq";
 
 // Generate `:hover` and `:focus` styles in one go.
@@ -257,10 +256,10 @@ hr {
 // UTILITIES
 @import "node_modules/inuitcss/utilities/utilities.clearfix";
 @import "node_modules/inuitcss/utilities/utilities.headings";
-// @import "node_modules/inuitcss/utilities/utilities.hide";
 @import "node_modules/inuitcss/utilities/utilities.print";
-@import "node_modules/inuitcss/utilities/utilities.spacing";
 @import "node_modules/inuitcss/utilities/utilities.widths";
+@import "node_modules/inuitcss/utilities/utilities.spacings";
+@import "node_modules/inuitcss/utilities/utilities.responsive-spacings";
 @import "_sass/utilities.shadows";
 
 .u-center {

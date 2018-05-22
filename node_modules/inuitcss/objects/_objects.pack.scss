@@ -18,15 +18,17 @@
   table-layout: fixed; /* [3] */
 }
 
-
   /**
    * 1. Cause children to adopt table-like structure.
+   * 2. Default item alignment is with the tops of each other.
    */
+
   .o-pack__item {
     display: table-cell; /* [1] */
+    vertical-align: top; /* [2] */
 
 
-    /* Vertical alignment variants.
+    /* Vertical alignment variants
        ====================================================================== */
 
     .o-pack--middle > & {
@@ -43,7 +45,7 @@
 
 
 
-/* Unequal-width items.
+/* Unequal-width items
    ========================================================================== */
 
 .o-pack--auto {
@@ -54,7 +56,7 @@
 
 
 
-/* Size variants.
+/* Size variants
    ========================================================================== */
 
 .o-pack--tiny {
@@ -63,6 +65,10 @@
 
 .o-pack--small {
   border-spacing: $inuit-global-spacing-unit-small;
+}
+
+.o-pack--default {
+  border-spacing: $inuit-global-spacing-unit;
 }
 
 .o-pack--large {
@@ -80,7 +86,7 @@
 /* Reversed order packs
    ========================================================================== */
 
-.o-pack--rev {
+.o-pack--reverse {
   direction: rtl;
 
   > .o-pack__item {

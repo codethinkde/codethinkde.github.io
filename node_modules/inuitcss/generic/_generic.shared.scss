@@ -13,14 +13,15 @@
 
 address,
 h1, h2, h3, h4, h5, h6,
-blockquote, p, pre
+blockquote, p, pre,
 dl, ol, ul,
 figure,
 hr,
 table,
 fieldset {
-  @include inuit-rem(margin-bottom, $inuit-global-spacing-unit);
+  margin-bottom: $inuit-global-spacing-unit;
 }
+
 
 
 /**
@@ -28,5 +29,5 @@ fieldset {
  */
 
 dd, ol, ul {
-  @include inuit-rem(margin-left, $inuit-global-spacing-unit);
+  margin-left: $inuit-global-spacing-unit;
 }

@@ -1,29 +1,16 @@
 ---
 layout: page--header-img
 page-class: page--about
-title: Über uns
+title: Über mich
 permalink: /ueberuns/
 header-img: page-header--about.jpg
 header-theme: dark
 background: white
 ---
 
-Wir sind auf die Gestaltung und Programmierung langlebiger und zukunfstorientierter Webseiten und Webaplikationen spezialisiert. Unsere Webseiten sind speziell optimiert für Geschwindigkeit, Skallierbarkeit und mobile Endgeräte.
-
-Normalerweise kümmern wir uns um die Details unter der Motorhaube: Domain, Hosting, Spagetticode und alles weitere, was den meisten Menschen wie Keilschrift erscheint.
-
-## Philosophie
-
-- **Simplizität** – Vermeide unnötige Komplexität wo immer möglich
-- **Ehrlichkeit** – Stehe für Fehler ein; nutze den anderen niemals aus, sondern suche sein Bestes
-- **Belehrbarkeit** – Lerne aus den Fehlern, lerne von anderen
-- **Kommunikation** – Halte das Team und den Kunden auf dem Laufenden
-- **Echtes Design** – Nicht nur ästetisch, sondern auch benutzerfreundlich
-- **Nachhaltigkeit** – Softwareentwicklung für langlebige Projekte
-
 ![Portrait von Lukas Hermann](/img/about-lukas-hermann.jpg){: .c-img-right}
 
-## Geschäftsführer
+## Lukas Hermann
 
 Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe es, neue Dinge zu lernen und herausfordernde Projekte anzupacken.
 
@@ -33,6 +20,15 @@ Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe 
 <a class="u-ic-link" href="mailto:lukas@codethink.de" title="E-Mail"><span class="ic-mail"></span></a>
 
 <div class="u-clearfix"></div>
+
+## Philosophie
+
+*   **Simplizität** – Vermeide unnötige Komplexität wo immer möglich
+*   **Ehrlichkeit** – Stehe für Fehler ein; nutze den anderen niemals aus, sondern suche sein Bestes
+*   **Belehrbarkeit** – Lerne aus den Fehlern, lerne von anderen
+*   **Kommunikation** – Halte das Team und den Kunden auf dem Laufenden
+*   **Echtes Design** – Nicht nur ästetisch, sondern auch benutzerfreundlich
+*   **Nachhaltigkeit** – Softwareentwicklung für langlebige Projekte
 
 ## Über diese Webseite
 
@@ -48,7 +44,7 @@ Unser Quellcode ist [öffentlich auf Github][9] und darf gerne begutachtet werde
 
 Sie möchten auch solch eine Seite? Oder möchten Sie ihre eigene Seite verbessern?
 
-<a class="c-btn c-btn--primary" href="mailto:lukas@codethink.de?subject=Zusammenarbeit">Kontaktieren Sie uns</a>
+<a class="c-btn c-btn--primary" href="mailto:lukas@codethink.de?subject=Zusammenarbeit">Kontaktieren Sie mich</a>
 
 [1]: https://jekyllrb.com
 [2]: https://pages.github.com

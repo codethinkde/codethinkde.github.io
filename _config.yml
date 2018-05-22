@@ -23,12 +23,11 @@ sass:
 # Speed up jekyll build time
 exclude:
     - node_modules
-    - serve.sh
 
 # Build settings
 markdown: kramdown
 
 # Plugins
-gems:
+plugins:
   - jekyll-sitemap # Production
   - octopress-autoprefixer # Production (Autoprefixer is great but takes 2 sec on each build)

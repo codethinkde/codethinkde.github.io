@@ -12,7 +12,6 @@
   display: block;
 }
 
-
   .o-media__img {
     float: left;
     margin-right: $inuit-global-spacing-unit;
@@ -22,7 +21,6 @@
     }
 
   }
-
 
   .o-media__body {
     overflow: hidden;
@@ -47,6 +45,16 @@
  * reversible options for all available sizes.
  */
 
+.o-media--flush {
+
+  > .o-media__img {
+    margin-right: 0;
+    margin-left: 0;
+ }
+
+}
+
+
 .o-media--tiny {
 
   > .o-media__img {
@@ -57,7 +65,7 @@
 
     > .o-media__img {
       margin-right: 0;
-      margin-left:  $inuit-global-spacing-unit-tiny;
+      margin-left: $inuit-global-spacing-unit-tiny;
     }
 
   }
@@ -75,7 +83,7 @@
 
     > .o-media__img {
       margin-right: 0;
-      margin-left:  $inuit-global-spacing-unit-small;
+      margin-left: $inuit-global-spacing-unit-small;
     }
 
   }
@@ -93,7 +101,7 @@
 
     > .o-media__img {
       margin-right: 0;
-      margin-left:  $inuit-global-spacing-unit-large;
+      margin-left: $inuit-global-spacing-unit-large;
     }
 
   }
@@ -111,7 +119,7 @@
 
     > .o-media__img {
       margin-right: 0;
-      margin-left:  $inuit-global-spacing-unit-huge;
+      margin-left: $inuit-global-spacing-unit-huge;
     }
 
   }
@@ -131,22 +139,6 @@
     float: right;
     margin-right: 0;
     margin-left: $inuit-global-spacing-unit;
-  }
-
-}
-
-
-
-
-
-/* Gutterless media objects
-   ========================================================================== */
-
-.o-media--flush {
-
-  > .o-media__img {
-    margin-right: 0;
-    margin-left:  0;
   }
 
 }
