@@ -8,19 +8,6 @@ header-theme: dark
 background: white
 ---
 
-![Portrait von Lukas Hermann](/img/about-lukas-hermann.jpg){: .c-img-right}
-
-## Lukas Hermann
-
-Hallo, ich bin Lukas Hermann, Web-Entwickler, Christ und Unternehmer. Ich liebe es, neue Dinge zu lernen und herausfordernde Projekte anzupacken.
-
-<a class="u-ic-link" href="https://de.linkedin.com/in/lukas-hermann" title="LinkedIn" target="_blank"><span class="ic-linkedin"></span></a>
-<a class="u-ic-link" href="https://www.xing.com/profile/Lukas_Hermann8" title="Xing" target="_blank"><span class="ic-xing"></span></a>
-<a class="u-ic-link" href="https://github.com/lhermann" title="Github" target="_blank"><span class="ic-github"></span></a>
-<a class="u-ic-link" href="mailto:lukas@codethink.de" title="E-Mail"><span class="ic-mail"></span></a>
-
-<div class="u-clearfix"></div>
-
 ## Philosophie
 
 *   **Simplizität** – Vermeide unnötige Komplexität wo immer möglich
@@ -44,7 +31,7 @@ Unser Quellcode ist [öffentlich auf Github][9] und darf gerne begutachtet werde
 
 Sie möchten auch solch eine Seite? Oder möchten Sie ihre eigene Seite verbessern?
 
-<a class="c-btn c-btn--primary" href="mailto:lukas@codethink.de?subject=Zusammenarbeit">Kontaktieren Sie mich</a>
+<a class="c-btn c-btn--primary" href="mailto:kontakt@codethink.de?subject=Zusammenarbeit">Kontaktieren Sie mich</a>
 
 [1]: https://jekyllrb.com
 [2]: https://pages.github.com

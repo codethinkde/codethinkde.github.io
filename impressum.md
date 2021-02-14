@@ -12,17 +12,12 @@ Codethink UG
 
 ## Vertreten durch:
 
-Geschäftsführer: Lukas Hermann
-
-## Kontakt:
-
-Telefon: +49 152 2368 4896
-<br>E-Mail: <noscript data-defuscate data-name="lukas" data-domain="codethink.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>
+Geschäftsführer: Daniel Knirsch
 
 ## Registereintrag:
 
 Eintragung im Handelsregister.
-<br>Registergericht:Amtsgericht Stuttgart
+<br>Registergericht: Amtsgericht Stuttgart
 <br>Registernummer: HRB 758020
 
 ## Umsatzsteuer:

@@ -17,7 +17,7 @@
     "dev": "bundle exec jekyll serve --incremental",
     "start": "npm run dev"
   },
-  "author": "Lukas Hermann <lukas@codethink.de> (http://codethink.de/)",
+  "author": "Codethink UG <kontakt@codethink.de> (http://codethink.de/)",
   "license": "UNLICENSED",
   "private": true,
   "repository": {

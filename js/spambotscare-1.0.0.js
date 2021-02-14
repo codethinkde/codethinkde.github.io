@@ -1,6 +1,6 @@
 /*!
  * spambotscare v1.0.0
- * @author: Lukas Hermann <lukas@codethink.de>
+ * @author: Lukas Hermann <hey@lukashermann.dev>
  *
  * Use with the following html-tag:
  * <noscript data-defuscate data-name="lukas" data-domain="codethink.de"><em>Diese E-Mail-Adresse ist durch JavaScript geschützt</em></noscript>

@@ -7,7 +7,7 @@
 
 # Site settings
 title: Codethink - Web-Engeneering, Front-End Development, SSG
-email: lukas@codethink.de
+email: kontakt@codethink.de
 description: > # this means to ignore newlines until "baseurl:"
   Entwicklung langlebiger und nachhaltiger Internetseiten mit neusten Web-Technologien
 baseurl: "" # the subpath of your site, e.g. /blog
